@@ -1,3 +1,4 @@
+console.log("carga script.js");
 let color = false;
 function cambiarColor() {
     const boton = document.getElementById("boton");
