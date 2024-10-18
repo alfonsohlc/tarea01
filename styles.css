@@ -53,10 +53,17 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-#boton{
-    color: green;
+#boton {
+    color: white;
+    background-color: #04AA6D;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#botonera {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
