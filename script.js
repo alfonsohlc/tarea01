@@ -1,4 +1,3 @@
-<script>
   let color = false;
   function cambiarColor() {
     const boton = document.getElementById("boton");
@@ -10,4 +9,3 @@
         color = false;
       }
   }
-</script>
