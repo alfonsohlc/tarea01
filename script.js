@@ -10,3 +10,13 @@ function cambiarColor() {
         color = false;
     }
 }
+
+function handleSearch() {
+    const searchTerm = document.getElementById('search-query').value;
+    gtag('event', 'search', {
+        search_term: searchTerm
+    });
+    // Redirigir a la página de resultados con el término de búsqueda
+    const resultadosUrl = 'resultados.html?q=' + encodeURIComponent(searchTerm);
+    window.location.href = resultadosUrl; // Cambia la URL de la ventana actual
+}
